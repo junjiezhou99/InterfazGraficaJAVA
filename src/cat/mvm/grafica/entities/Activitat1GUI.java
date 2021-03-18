@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
 
-public class Activitat1_GUI extends JFrame {
+public class Activitat1GUI extends JFrame {
     private JLabel jlbFName;
     private JLabel jlbLName;
     private JLabel jlbPosition;
@@ -17,7 +17,7 @@ public class Activitat1_GUI extends JFrame {
     private JTextArea jtfShowText;
     private JButton jbtClear;
 
-    public Activitat1_GUI(){
+    public Activitat1GUI(){
         this.setSize(500, 500); //Mida de la ventana
         this.setResizable(false); //Quitar la opcion de modificar el size de la ventana
         this.setTitle("Name and position"); //Título de la ventana
