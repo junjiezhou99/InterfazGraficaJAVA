@@ -67,12 +67,13 @@ public class Activitat1GUI extends JFrame {
         getContentPane().add(jbtOK);
         jbtOK.setBounds(290, 148, 60, 20);
         jbtOK.setMnemonic('O'); //ALT + O como aceptar
-        jbtOK.addActionListener(new ActionListener() {
+        /*jbtOK.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 jbtOKActionPerformed(e);
             }
-        });
+        });*/
+        jbtOK.addActionListener(e -> jbtOKActionPerformed(e)); //Funcion lambda que simplifica el método documentado
 
         getContentPane().add(jtfShowText); //Área de texto grande para printar datos
         jtfShowText.setBounds(22, 188, 440, 200);
@@ -81,12 +82,13 @@ public class Activitat1GUI extends JFrame {
         getContentPane().add(jbtClear);
         jbtClear.setBounds(390, 410, 70, 20);
         jbtClear.setMnemonic('C'); //ALT + C como aceptar
-        jbtClear.addActionListener(new ActionListener() {
+        /*jbtClear.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 jbtClearActionPerformed(e);
             }
-        });
+        });*/
+        jbtClear.addActionListener(e -> jbtClearActionPerformed(e)); //Funcion lambda que simplifica el método documentado
     }
 
     private void jbtClearActionPerformed(ActionEvent evt){ //Método del primer botón

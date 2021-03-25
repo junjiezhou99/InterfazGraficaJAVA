@@ -9,7 +9,7 @@ public class Application {
         /*var app = new Converter();
         app.setVisible(true);*/
 
-        //var np = new Activitat1GUI();
-        var a2 = new Activitat2GUI();
+        var np = new Activitat1GUI();
+        //var a2 = new Activitat2GUI();
     }
 }
